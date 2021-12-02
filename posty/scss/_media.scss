@@ -1,0 +1,393 @@
+@media only screen and (max-width : 1330px) {
+  .contain {
+    max-width: 952px;
+  }    
+  .sl-txt {
+    font-size: 46px;
+    margin-bottom: 25px;
+    max-width: 793px;
+  }
+  .head-logo {
+    font-size: 20px;
+  }
+  .sl {
+    padding: 60px 0 100px 0;
+  }
+  .adv-w {    
+            flex-wrap: wrap;
+  }
+  .adv-col-1,
+  .adv-col-2 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .adv {
+    padding-top: 80px;
+  }
+  .adv-col-1 {
+    font-size: 24px;
+    margin-bottom: 50px;                
+  }
+  .adv-col-2-row {    
+            flex-direction: column;
+            max-width: 410px;            
+            
+  }
+  .adv-col-2-numb {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .adv-col-2 {
+    display: flex;    
+            align-items: center;
+            flex-direction: column;
+  }
+  .adv-col-2-txt {
+    text-align: center;
+    strong {
+      display: block;
+    }
+  }
+  .stat-w {    
+            flex-wrap: wrap;
+  }
+  .stat-l {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+  .stat-txt {
+    text-align: center;
+  }
+  .stat-r {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .stat {
+    padding-bottom: 100px;
+  }
+  .posts-w {    
+            flex-wrap: wrap;
+  }
+  .posts-l{
+    width: 100%;
+  }
+
+  .posts-r {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  } 
+  .posts,
+  .pubs,
+  .gt-ac {
+    padding: 80px 0 100px 0;
+  }
+  .posts-l-txt,
+  .h {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .posts-l-ex-1 {
+    display: none;
+  }
+  .posts-l-ex-2 {
+   display: flex;    
+           flex-direction: column;           
+                   align-items: center;
+                   width: 100%;
+                   margin-top: 80px;
+  }
+  .posts-l-ex {    
+            flex-direction: column;
+  }
+  .posts-l-ex-img-w {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .posts-l-ex-txt {
+    text-align: center;
+  }
+  .pub-shadow {
+    margin-top: 50px;
+    img {
+      width: 304px;
+      height: 304px;
+    }
+  }
+.vid-pl {
+  margin-top: 50px;
+  height: 534px;
+}
+.vid-les {
+  padding: 100px 0;
+}
+.vid-les-it-1, .vid-les-w img {
+  width: 304px;
+  height: 304px;
+  margin-bottom: 20px;
+}
+.vid-les-it-1 {
+  font-size: 24px;
+}
+.vid-les-it-1 {
+  padding: 15px;
+}
+.gt-ac-w {  
+          flex-wrap: wrap;
+}
+.gt-ac-l {
+  width: 100%;
+  padding-right: 0;
+}
+.gt-ac-l-txt-1 {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.gt-ac-r-1 {
+  display: none;
+}
+.gt-ac-r-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.gt-ac-l-p-w,
+.gt-ac-l-dif {
+  max-width: 628px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.foot-top-txt {
+  display: none;
+}
+.foot-top-soc-w {
+  width: 100%;
+          justify-content: center;
+}
+.foot-top-soc {
+  margin: 0 12.5px;
+}
+.foot {
+  padding: 100px 0;
+  .contain {
+    max-width: 100%;
+  }
+}
+.foot-top {
+  padding-bottom: 30px;
+}
+.foot-dw {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  ul {
+    display: block;
+    li {
+      text-align: center;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    a {
+      font-size: 20px;
+    }
+  }
+}
+.foot-top {
+  border-color: #595959;
+}
+.foot-top-txt-2 {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+  .top-mnu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 75px;
+    z-index: 12;
+    height: calc(100vh - 75px);
+    background-color: rgba(0, 0, 0, 0.9); 
+    width: 100%;  
+    padding-top: 100px;
+    padding-bottom: 100px;      
+    .top-ul {
+      display: block;
+      li {
+        margin-bottom: 24px;
+      }
+      a {
+        font-size: 20px;
+        color: #FFF;
+      }
+    }          
+  }
+
+
+#menu-top-mnu {
+  display: block;  
+  li {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  a {
+    color: #FFF;
+    font-size: 24px;
+  }
+}
+
+  .hidden-mnu {
+    display: block;      
+    position: relative;
+    z-index: 11;
+  }
+  .toggle-mnu {
+    display: block;
+    float: right;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 48px;
+    display: block;
+    width: 16px;
+    height: 9px;
+    margin: 0;    
+  }
+  .toggle-mnu:focus {
+    outline: none;
+  }
+  .toggle-mnu span {
+    position: relative;
+    display: block;  
+    transition: all 0.3s;    
+    backface-visibility: hidden;
+    width: 16px;
+    height: 3px;   
+    background: #000 
+    
+  }
+  .toggle-mnu span {
+    &:after, &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -4px;
+      width: 16px;
+      height: 3px;   
+      background: #000;
+      transition: all 0.3s;    
+      backface-visibility: hidden;             
+      border-radius: 1px;
+    }
+  }
+  .toggle-mnu span:after {
+    top: 3px;     
+  }
+  .toggle-mnu span:before {
+
+  }
+
+  .toggle-mnu {      
+    span {
+      background-color: transparent;
+    }
+  }
+
+
+  .toggle-mnu.on span:before    {
+    transform: rotate(45deg) translate(5px, 5px);
+    top: -6px;
+  }
+  .toggle-mnu.on span:after    {
+    transform: rotate(-45deg) translate(8px, -9px);
+    top: 13px;
+  }
+  .toggle-mnu.on + #menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  .contain {
+    max-width: 750px 
+  }    
+} 
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .contain {
+    max-width: 600px;
+  }
+}      
+
+@media only screen and (max-width : 640px) {
+  .contain {
+    max-width: 530px;
+  }
+} 
+
+
+
+@media only screen and (max-width : 570px) {
+  .contain {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+
+@media only screen and (max-width : 480px) {
+  
+}
+
+@media only screen and (max-width : 375px) {
+  
+}
+
+@media only screen and (max-width : 360px) {
+  #menu-top-mnu li {
+    margin-bottom: 37px;
+  }
+  .top-mnu {
+    padding: 70px;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  body, body > * {
+    width: auto;
+    min-width: 320px;
+  }
+}
+
+
+@media only screen and (min-width : 1331px) {
+  .main-mnu {
+    display: block !important;
+  } 
+
+  .hidden-mnu {
+    display: none;
+  }
+} 
+
+
