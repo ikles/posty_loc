@@ -262,7 +262,7 @@
     display: none;
     position: absolute;
     left: 0;
-    top: 75px;
+    top: 72px;
     z-index: 12;
     height: calc(100vh - 75px);
     background-color: rgba(0, 0, 0, 0.9); 
@@ -312,6 +312,7 @@
     width: 30px;
     height: 9px;
     margin: 0;    
+    margin-top: -8px;
   }
   .toggle-mnu:focus {
     outline: none;
@@ -703,7 +704,12 @@ font-size: 21px;
 
 
 @media only screen and (max-width : 480px) {
-  
+  #menu-top-mnu li {
+    margin-bottom: 30px;
+  }
+  .top-mnu {
+    padding: 60px 0;
+  }
 }
 @media only screen and (max-width : 479px) {
     .posts-r {
@@ -724,6 +730,17 @@ font-size: 21px;
   }
   .top-mnu {
     padding: 70px;
+  }
+   #menu-top-mnu {
+     li {
+    margin-bottom: 30px;
+  }
+  a {
+    font-size: 18px;
+  }
+   } 
+  .top-mnu {
+    padding: 40px 0;
   }
 }
 

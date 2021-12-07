@@ -30,7 +30,7 @@ jQuery(document).ready(function( $ ) {
 
   /************************************/
 
-$('.wrapper').prepend('<span class="eye-3"></span>');
+/*$('.wrapper').prepend('<span class="eye-3"></span>');
 $('body').addClass('active');
 
 
@@ -38,7 +38,7 @@ $('.eye-3').click(function (e) {
   e.preventDefault();  
   $('body').toggleClass('active');
 
-});
+});*/
 
 /************************************/
 

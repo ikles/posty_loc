@@ -37,7 +37,11 @@
           <div class="adv-col-2-row">
             <div class="adv-col-2-numb">1</div>
             <div class="adv-col-2-txt">
-              <?php echo get_field('num1'); ?>
+              <!-- <?php echo get_field('num1'); ?> -->
+
+              <strong>Сильный заголовок.</strong> Обложки постов — это <br> рекламные креативы. Заголовки написаны <br> по специальной формуле повышающей охваты.
+
+
             </div>
           </div>
           <div class="adv-col-2-row">
@@ -252,46 +256,8 @@
     ?>
     <div class="vid-les-w">
       <div class="vid-les-it-1"><?php echo $post->post_content;?></div>
-<picture>
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-288.jpg">
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-304.jpg">
-<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-304.jpg">
-<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-407.jpg">
-<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-1-407.jpg" />
-</picture>
 
-<picture>
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-288.jpg">
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-304.jpg">
-<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-304.jpg">
-<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-407.jpg">
-<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-2-407.jpg" />
-</picture>
-
-<picture>
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-288.jpg">
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-304.jpg">
-<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-304.jpg">
-<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-407.jpg">
-<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-3-407.jpg" />
-</picture>
-
-<picture>
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-288.jpg">
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-304.jpg">
-<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-304.jpg">
-<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-407.jpg">
-<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-4-407.jpg" />
-</picture>
-
-<picture>
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-288.jpg">
-<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-304.jpg">
-<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-304.jpg">
-<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-407.jpg">
-<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-5-407.jpg" />
-</picture>
-      <!-- <?php echo get_field('img'); ?> -->
+      <?php echo get_field('img'); ?>
 
     </div>
   </div>
