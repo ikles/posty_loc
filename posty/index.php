@@ -24,35 +24,32 @@
       </div>
     </div>
   </div>
-  <div class="adv" id="adant">
+  <div class="adr" id="adant">
     <div class="contain">
-      <div class="adv-w">
+      <div class="adr-w">
         <?php
         $post = get_post(16);
         ?>
-        <div class="adv-col-1">
+        <div class="adr-col-1">
           <?php echo $post->post_content;?>          
         </div>
-        <div class="adv-col-2">
-          <div class="adv-col-2-row">
-            <div class="adv-col-2-numb">1</div>
-            <div class="adv-col-2-txt">
-              <!-- <?php echo get_field('num1'); ?> -->
-
-              <strong>Сильный заголовок.</strong> Обложки постов — это <br> рекламные креативы. Заголовки написаны <br> по специальной формуле повышающей охваты.
-
+        <div class="adr-col-2">
+          <div class="adr-col-2-row">
+            <div class="adr-col-2-numb">1</div>
+            <div class="adr-col-2-txt">
+              <?php echo get_field('num1'); ?>
 
             </div>
           </div>
-          <div class="adv-col-2-row">
-            <div class="adv-col-2-numb">2</div>
-            <div class="adv-col-2-txt">
+          <div class="adr-col-2-row">
+            <div class="adr-col-2-numb">2</div>
+            <div class="adr-col-2-txt">
               <?php echo get_field('num2'); ?>
             </div>
           </div>
-          <div class="adv-col-2-row">
-            <div class="adv-col-2-numb">3</div>
-            <div class="adv-col-2-txt">
+          <div class="adr-col-2-row">
+            <div class="adr-col-2-numb">3</div>
+            <div class="adr-col-2-txt">
               <?php echo get_field('num3'); ?>
             </div>
           </div>
@@ -68,7 +65,7 @@
         ?>
         <div class="stat-l">        
           <?php echo get_field('img1'); ?>
-<!--             <picture>
+   <!--          <picture>
           <source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-1-288.jpg">
           <source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-1-407.jpg">
           <source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-1-407.jpg">
@@ -79,7 +76,7 @@
       </div>
       <div class="stat-r">
         <?php echo get_field('img2'); ?>
-          <!-- <picture>
+<!--     <picture>
           <source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-2-288.jpg">
           <source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-2-720.jpg">
           <source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/stat-2-720.jpg">
@@ -99,6 +96,7 @@
 <div class="posts" id="posts">
   <div class="contain">
     <div class="posts-w">
+
 
 
 
@@ -132,13 +130,13 @@
 
       <div class="posts-r">
         <div class="posts-r-top">
-          <a href="#" class="posts-r-top-nm">
+          <div class="posts-r-top-nm">
             <div class="posts-r-top-nm-ava">
-              <img src="<? bloginfo('template_url') ?>/result/img/ava.png">
+              <img src="<? bloginfo('template_url') ?>/result/img/ava.svg">
             </div>
             <div class="posts-r-top-nm-txt">vitaliystrong</div>
-          </a>
-          <a href="#" class="posts-r-top-unf"><img src="<? bloginfo('template_url') ?>/result/img/unf.svg"></a>
+          </div>
+          <div class="posts-r-top-unf"><img src="<? bloginfo('template_url') ?>/result/img/unf.svg"></div>
         </div>
         <div class="posts-slider">            
 
@@ -228,6 +226,53 @@
       <?php echo $post->post_content;?>        
     </div>
     <div class="pub-shadow">
+      <!-- <picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-1-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-1-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-1-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-1-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-1-406.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-2-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-2-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-2-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-2-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-2-406.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-3-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-3-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-3-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-3-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-3-406.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-4-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-4-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-4-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-4-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-4-406.jpg" />
+</picture> 
+
+<picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-5-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-5-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-5-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-5-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-5-406.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 767px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-6-288.jpg">          
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-6-350.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-6-304.jpg">                   
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/pub-6-406.jpg">                   
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/pub-6-406.jpg" />
+</picture> -->
 <?php echo get_field('img'); ?>
 </div>
 </div>
@@ -244,7 +289,11 @@
     </div>
     <div class="vid-pl">
 
+<div class="embed-responsive embed-responsive-16by9">
       <?php echo get_field('link'); ?>
+  <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe> -->
+</div>
+
     </div>
   </div>
 </div>
@@ -254,8 +303,49 @@
     <?php
     $post = get_post(81);
     ?>
+
     <div class="vid-les-w">
       <div class="vid-les-it-1"><?php echo $post->post_content;?></div>
+
+<!-- <picture>
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-288.jpg">
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-304.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-304.jpg">
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-1-407.jpg">
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-1-407.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-288.jpg">
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-304.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-304.jpg">
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-2-407.jpg">
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-2-407.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-288.jpg">
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-304.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-304.jpg">
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-3-407.jpg">
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-3-407.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-288.jpg">
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-304.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-304.jpg">
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-4-407.jpg">
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-4-407.jpg" />
+</picture>
+
+<picture>
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-288.jpg">
+<source media="(max-width: 768px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-304.jpg">
+<source media="(max-width: 1330px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-304.jpg">
+<source media="(max-width: 1367px)" type="image/jpeg" srcset="/wp-content/uploads/2021/12/vid-les-5-407.jpg">
+<img type="image/jpeg" src="/wp-content/uploads/2021/12/vid-les-5-407.jpg" />
+</picture> -->
 
       <?php echo get_field('img'); ?>
 
@@ -274,7 +364,7 @@
         <div class="gt-ac-r-inn">
           <div class="gt-ac-r-txt-1"><?php echo get_field('txt3'); ?></div>
           <div class="gt-ac-r-txt-2"><?php echo get_field('txt4'); ?></div>
-          <div class="gt-ac-r-adv">
+          <div class="gt-ac-r-adr">
             <?php echo get_field('txt5'); ?>
           </div>
           <a href="<?php echo get_field('txt7'); ?>" class="gt-ac-r-btn"><?php echo get_field('txt6'); ?></a>
@@ -292,7 +382,7 @@
         <div class="gt-ac-r-inn">
           <div class="gt-ac-r-txt-1"><?php echo get_field('txt3'); ?></div>
           <div class="gt-ac-r-txt-2"><?php echo get_field('txt4'); ?></div>
-          <div class="gt-ac-r-adv">
+          <div class="gt-ac-r-adr">
             <?php echo get_field('txt5'); ?>
           </div>
           <a href="<?php echo get_field('txt7'); ?>" class="gt-ac-r-btn"><?php echo get_field('txt6'); ?></a>

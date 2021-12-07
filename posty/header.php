@@ -8,9 +8,9 @@
 		<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>	
 		<!--script src="<? bloginfo('template_url') ?>/js/jquery-3.4.1.min.js"></script-->	
 		<?php wp_head(); ?>
-		<script>
+		<!-- <script>
 			jQuery.noConflict();
-		</script>			
+		</script>			 -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
