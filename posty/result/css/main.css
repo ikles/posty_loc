@@ -2038,36 +2038,6 @@ a {
       max-width: 304px;
       height: auto;
       margin-bottom: 20px; }
-    .pub-shadow img:nth-child(2) {
-      -webkit-box-ordinal-group: 2;
-      -webkit-order: 1;
-          -ms-flex-order: 1;
-              order: 1; }
-    .pub-shadow img:nth-child(3) {
-      -webkit-box-ordinal-group: 3;
-      -webkit-order: 2;
-          -ms-flex-order: 2;
-              order: 2; }
-    .pub-shadow img:nth-child(4) {
-      -webkit-box-ordinal-group: 4;
-      -webkit-order: 3;
-          -ms-flex-order: 3;
-              order: 3; }
-    .pub-shadow img:nth-child(1) {
-      -webkit-box-ordinal-group: 5;
-      -webkit-order: 4;
-          -ms-flex-order: 4;
-              order: 4; }
-    .pub-shadow img:nth-child(6) {
-      -webkit-box-ordinal-group: 6;
-      -webkit-order: 5;
-          -ms-flex-order: 5;
-              order: 5; }
-    .pub-shadow img:nth-child(5) {
-      -webkit-box-ordinal-group: 7;
-      -webkit-order: 6;
-          -ms-flex-order: 6;
-              order: 6; }
   .vid-pl {
     margin-top: 50px;
     /*height: 534px;*/ }
@@ -2272,9 +2242,9 @@ a {
         -ms-flex-pack: center;
             justify-content: center; }
     .pub-shadow img {
-      margin-left: 5px;
-      margin-right: 5px;
-      margin-bottom: 10px; }
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px; }
   .vid-les-w {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -2337,7 +2307,37 @@ a {
   .vid-les-it-1,
   .vid-les-w img {
     max-width: -webkit-calc(50% - 20px);
-    max-width: calc(50% - 20px); } }
+    max-width: calc(50% - 20px); }
+  .pub-shadow img:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; }
+  .pub-shadow img:nth-child(3) {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2; }
+  .pub-shadow img:nth-child(4) {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3; }
+  .pub-shadow img:nth-child(1) {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3; }
+  .pub-shadow img:nth-child(6) {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+        -ms-flex-order: 5;
+            order: 5; }
+  .pub-shadow img:nth-child(5) {
+    -webkit-box-ordinal-group: 7;
+    -webkit-order: 6;
+        -ms-flex-order: 6;
+            order: 6; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
@@ -2459,7 +2459,10 @@ a {
   .foot-dw ul li:not(:last-child) {
     margin-bottom: 22px; }
   .foot-dw {
-    padding-top: 35px; } }
+    padding-top: 35px; }
+  .pub-shadow img {
+    max-width: -webkit-calc(50% - 20px);
+    max-width: calc(50% - 20px); } }
 
 @media only screen and (max-width: 640px) {
   .contain {
@@ -2499,7 +2502,42 @@ a {
     margin-left: 0;
     margin-right: 0; }
   .vid-les-it-1 {
-    font-size: 21px; } }
+    font-size: 21px; }
+  .pub-shadow img {
+    max-width: 100%; }
+    .pub-shadow img:nth-child(2) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+    .pub-shadow img:nth-child(3) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+    .pub-shadow img:nth-child(4) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+    .pub-shadow img:nth-child(1) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+    .pub-shadow img:nth-child(6) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+    .pub-shadow img:nth-child(5) {
+      -webkit-box-ordinal-group: NaN;
+      -webkit-order: initial;
+          -ms-flex-order: initial;
+              order: initial; }
+  .pub-shadow {
+    -webkit-filter: none;
+            filter: none; } }
 
 @media only screen and (max-width: 480px) {
   #menu-top-mnu li {
@@ -2527,7 +2565,9 @@ a {
     text-align: center; }
     .stat-r img {
       max-width: 100%;
-      height: auto; } }
+      height: auto; }
+  .stat-l {
+    width: 100%; } }
 
 @media only screen and (max-width: 360px) {
   #menu-top-mnu li {
